@@ -1,0 +1,28 @@
+flatwhite
+=========
+
+This colorscheme is derived from prior work. Attributions below are preserved
+in accordance with the upstream licenses.
+
+1. flatwhite-syntax  (original palette)
+   Copyright (c) 2016 biletskyy
+   https://github.com/biletskyy/flatwhite-syntax
+   Licensed under the MIT License.
+
+2. Helix editor — runtime/themes/flatwhite.toml  (direct source of this port)
+   Authors: Alexander Brevig <alexanderbrevig@gmail.com>, krfl <kr.fl@outlook.com>
+   Header note: "Adopted from https://github.com/biletskyy/flatwhite-syntax"
+   https://github.com/helix-editor/helix
+   The Helix project is licensed under the Mozilla Public License 2.0 (MPL-2.0).
+
+Relationship to this repository
+-------------------------------
+The color values here were ported from the Helix `flatwhite` theme and lightly
+modified. The Neovim highlight definitions (lua/flatwhite/init.lua), the theme
+generator (build.py), and the multi-app packaging are original to this
+repository and are licensed under the MIT License (see LICENSE).
+
+Note on MPL-2.0: The Mozilla Public License is a file-level copyleft. The color
+values ported from Helix ultimately originate from the MIT-licensed
+flatwhite-syntax theme. If you redistribute this repository, please keep these
+notices intact.
