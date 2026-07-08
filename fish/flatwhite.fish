@@ -13,15 +13,15 @@ set -g fish_color_option                    5B5143              # orange_text �
 set -g fish_color_quote                     525643              # green_text — strings
 set -g fish_color_redirection               465953              # teal_text — > | &
 set -g fish_color_operator                  465953              # teal_text
-set -g fish_color_end                       93836C              # base2 — ; separators
-set -g fish_color_comment                   B9A992              # base3 — comments
-set -g fish_color_error                     C25B5B              # red_text_sec — invalid input
-set -g fish_color_autosuggestion            B9A992              # base3 — ghost text
+set -g fish_color_end                       766957              # base2 — ; separators
+set -g fish_color_comment                   998B79              # base3 — comments
+set -g fish_color_error                     B05353              # red_text_sec — invalid input
+set -g fish_color_autosuggestion            998B79              # base3 — ghost text
 set -g fish_color_valid_path                --underline         # underline valid paths
 set -g fish_color_selection                 --background=DCD3C6 # base4 — selection bg
-set -g fish_color_search_match              --background=F7E0C4 # orange_bg — search match bg
+set -g fish_color_search_match              --background=F7E0C3 # orange_bg — search match bg
 set -g fish_color_history_current           605A52 --bold       # base1 — current history item
 set -g fish_pager_color_prefix              614C61 --bold       # purple_text — matched prefix
 set -g fish_pager_color_completion          605A52              # base1 — completions
-set -g fish_pager_color_description         B9A992              # base3 — descriptions
+set -g fish_pager_color_description         998B79              # base3 — descriptions
 set -g fish_pager_color_selected_background --background=DCD3C6 # base4 — selected row

@@ -29,6 +29,7 @@ function M.highlights(p)
     Visual        = { fg = p.base6, bg = p.base2 },
 
     -- Syntax -----------------------------------------------------------------
+    Comment       = { fg = p.base2, bg = p.base6 },
     String        = { fg = p.green_text, bg = p.green_bg },
     Identifier    = { fg = p.base1 },
     Function      = { bold = true },
